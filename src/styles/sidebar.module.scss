@@ -1,0 +1,122 @@
+.sidebar {
+	// overflow: auto;
+	box-shadow: var(--ant-box-shadow);
+	z-index: 2;
+	padding-bottom: 20px;
+	position: fixed !important;
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 50;
+	background-color: var(--ant-color-bg-container) !important;
+
+	.sidebar-open-button {
+		margin-left: 10px;
+		font-size: var(--ant-font-size-lg);
+		width: 40px;
+		height: 40px;
+	}
+
+	.sidebar-user-avatar {
+		width: 80;
+		margin-left: 10;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		height: 40px;
+		color: #002453;
+		font-size: var(--ant-font-size-lg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.menu-section {
+	// height: calc(100vh - 170px);
+	// height: 100vh;
+	height: 100%;
+	font-size: 16px;
+	// overflow: auto;
+	
+	padding-bottom: 40px;
+	margin-bottom: 33px;
+	svg {
+		font-size: var(--ant-font-size-xl);
+		// font-size: 16px;
+	}
+}
+.sidebar-logo-open-control {
+	margin: 0 auto 13px;
+	padding-top: 20px;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: sticky;
+}
+
+// .sidebar-search-input {
+// 	width: 80%;
+// 	margin: 10px auto 10px;
+// 	height: 35px;
+// 	color: #002453;
+// }
+.version-and-download {
+	position: absolute;
+	bottom: 0;
+	background-color: var(--ant-color-bg-container);
+	// margin-top: -42px;
+	padding: 10px;
+	padding-top: 0;
+	box-sizing: border-box;
+	color: var(--ant-color-text-secondary);
+	.install-version {
+		display: flex;
+		justify-content: space-between;
+
+		.install-button {
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
+.storage-section {
+	position: sticky;
+	top: 100%;
+	background-color: var(--ant-color-bg-container);
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+
+	.storage-top {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		margin-bottom: 5px;
+		color: var(--ant-color-text);
+	}
+	.storage-bottom {
+		font-size: 11px;
+		color: var(--ant-color-text-secondary);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	animation: fadeIn 1s ease-out;
+}
+
+.icon {
+	font-size: 16px;
+}

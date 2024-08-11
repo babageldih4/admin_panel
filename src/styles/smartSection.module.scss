@@ -1,0 +1,23 @@
+// display: "flex",
+//               flexDirection: "row",
+//               textAlign: "center",
+//               // justifyContent: "center",
+//               alignItems: "center",
+//               fontSize: "18px",
+
+
+.item-font {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+.text-font-size {
+    font-size: 18px;
+    padding-left: 5px;
+}
+.text-font-size2 {
+    font-size: 16px;
+    padding-left: 5px;
+}

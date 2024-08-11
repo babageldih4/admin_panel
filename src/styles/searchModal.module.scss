@@ -1,0 +1,35 @@
+$primary_color: #e9601f;
+$background_color: #f2f2f2;
+$primary_icon_color: #7e7c7c;
+$primary_font_color: rgb(55, 53, 47);
+
+.search-modal {
+	width: 100%;
+
+	.search-modal-body {
+		outline: none !important;
+		border: unset;
+		border-radius: 4px;
+		background-color: var(--ant-layout-color-bg-body);
+		margin: auto !important;
+		overflow: auto;
+
+		.search-modal-header {
+			margin-bottom: 20px;
+			font-size: var(--ant-font-size-xl);
+			font-weight: 700;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+}
+
+@media (max-width: 620px) {
+	.search-modal {
+		.search-modal-body {
+			padding: 10px;
+			min-width: 95%;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.expandable-table {
+	.expandable-table .ant-table-expanded-row .ant-table-thead {
+		display: none;
+	}
+	// .ant-table-tbody > tr > td {
+	// 	padding: 0;
+	// }
+	.ant-table-has-fix-left .ant-table-has-fix-right {
+		margin-inline: 0 !important;
+	}
+
+	.price-tag {
+		color: #bfbfbf;
+	}
+	.ant-table-expanded-row > td {
+		background-color: var(--ant-color-bg-container) !important;
+	}
+
+	.expand-icon {
+		color: #bfbfbf;
+	}
+}
+.ant-collapse-content {
+	background-color: var(--ant-color-bg-layout) !important;
+}
+.ant-collapse-header {
+	background-color: var(--ant-color-bg-container) !important;
+}

@@ -1,0 +1,40 @@
+/* LoginPage.css */
+
+.login-layout {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+  }
+  
+  .login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-title {
+    margin-bottom: 24px;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .login-register-link {
+    text-align: center;
+    margin-top: 16px;
+  }
+  

@@ -1,0 +1,33 @@
+$primary_color: #e9601f;
+.filter-div {
+	margin-top: 20px;
+	.filter-header {
+		margin-bottom: 10px;
+		font-weight: 600;
+		font-size: var(--ant-font-size-xl);
+	}
+	.filters {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.select-div {
+		display: flex;
+		align-items: center;
+		border: 1px solid #dddddd;
+		border-radius: 2px;
+		padding: 0 10px;
+		padding-right: 0;
+
+		// span {
+		// 	color: #aba8a8;
+		// 	margin-right: 10px;
+		// }
+
+		.select-name {
+			color: #aba8a8;
+			margin-right: 10px;
+			white-space: nowrap;
+		}
+	}
+}

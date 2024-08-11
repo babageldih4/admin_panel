@@ -1,0 +1,29 @@
+.r-loader {
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.rotate-image {
+		object-fit: contain;
+		width: 80px;
+		animation: rotateAnimation 1s linear infinite;
+	}
+}
+
+@keyframes rotateAnimation {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	75% {
+		transform: rotate(240deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
